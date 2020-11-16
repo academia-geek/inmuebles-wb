@@ -10,8 +10,9 @@
     "type": "git",
     "url": "git+https://github.com/agileinnova/inmuebles-wb.git"
   },
-  "author": "Oscar Mesa",
-  "license": "MIT",
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
   "bugs": {
     "url": "https://github.com/agileinnova/inmuebles-wb/issues"
   },
