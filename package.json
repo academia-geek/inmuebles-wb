@@ -16,5 +16,17 @@
   "bugs": {
     "url": "https://github.com/agileinnova/inmuebles-wb/issues"
   },
-  "homepage": "https://github.com/agileinnova/inmuebles-wb#readme"
+  "homepage": "https://github.com/agileinnova/inmuebles-wb#readme",
+  "dependencies": {
+    "@babel/cli": "^7.12.1",
+    "@babel/core": "^7.12.3",
+    "@babel/polyfill": "^7.12.1",
+    "@babel/preset-env": "^7.12.1",
+    "babel-loader": "^8.2.1",
+    "html-webpack-plugin": "^4.5.0",
+    "sass": "^1.29.0",
+    "webpack": "^5.4.0",
+    "webpack-cli": "^4.2.0",
+    "webpack-dev-server": "^3.11.0"
+  }
 }
