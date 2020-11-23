@@ -7,6 +7,18 @@ module.exports = {
         filename: 'main.js',
         path: path.resolve(__dirname, 'build')
     },
+    devServer : {
+        port : 8000, 
+        open: true
+    }, 
+    module: {
+        rules: [
+            {
+                test: /\.js$/,
+                loader: 'babel-loader',
+            }
+        ]
+    },
     plugins: [
         new HtmlWebpackPlugin({
             template: './src/index.html',
