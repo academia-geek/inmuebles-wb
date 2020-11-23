@@ -1,4 +1,5 @@
 import 'bootstrap'
+import './../sass/style.scss'
 import {DATOS_INMUEBLES} from './clases/Propietario'
 
     	
